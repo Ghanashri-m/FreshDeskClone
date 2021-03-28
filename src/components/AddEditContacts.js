@@ -16,6 +16,7 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'center',
         borderRadius: '10px',
         padding: '2rem',
+        marginBottom: '2rem',
         [theme.breakpoints.down("md")]: {
             padding: 0,
         }
@@ -119,14 +120,15 @@ const AddEditContacts = (props) => {
                 paddingLeft: '2rem',
                 paddingRight: '2rem'
             }} onClick={props.toggleSlider(props.slider, false)}>
-                <h2>{props.isEdit ? 'Edit ' : 'New '}Contact</h2>
-                <CloseIcon />
+                <h2 style={{color: 'white'}}>{props.isEdit ? 'Edit ' : 'New '}Contact</h2>
+                <CloseIcon style={{color: 'white'}} />
             </div>
             <p style={{
                 width: '100%',
                 alignItems: 'center',
                 paddingLeft: '2rem',
-                paddingRight: '2rem'
+                paddingRight: '2rem',
+                color: 'white'
             }}>
                 When Someone reaches out o you, they become a contact in your account. You can Create companies and associate contacts with them
             </p>

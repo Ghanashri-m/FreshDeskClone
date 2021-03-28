@@ -32,15 +32,15 @@ const useStyles = makeStyles(theme=>({
         width: '100%',
         height: '100%',
         minWidth: '50vw',
-        background: '#E9E9E9',
+        background: '#233',
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column'
     },
     menuSliderContainerMobile: {
-        width: '80vw',
-        minWidth: '80vw',
-        background: '#E9E9E9',
+        width: '100vw',
+        minWidth: '100vw',
+        background: '#233',
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column'

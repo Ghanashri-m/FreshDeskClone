@@ -43,6 +43,13 @@ const useStyles = makeStyles(theme=>({
      bullet: {
         paddingRight: '1rem',
         fontSize: '24px'
+     },
+     ticketsHeader: {
+        color: 'white',
+        marginLeft: '3rem',
+        [theme.breakpoints.down("md")]: {
+            marginLeft: '1rem',
+        }
      }
 }));
 
@@ -171,7 +178,7 @@ const Tickets = () => {
         <Box component='div' className={classes.mainContainer}>
             <Navbar />
             <Grid container className={classes.container} justify="center">
-                <Typography gutterBottom variant='h5' style={{color: 'white', marginLeft: '3rem'}}>
+                <Typography gutterBottom variant='h5' className={classes.ticketsHeader}>
                     All Tickets
                 </Typography>
                 {
