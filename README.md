@@ -2,6 +2,8 @@
 
 https://kind-jepsen-7b80f3.netlify.app/
 
+<h1>The Trial period is over, the Freshdesk account has been suspended. Only code is available to look at, demo is broken due to suspension of API facilities</h1>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
