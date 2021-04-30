@@ -2,7 +2,7 @@
 
 https://kind-jepsen-7b80f3.netlify.app/
 
-<h1>The Trial period is over, the Freshdesk account has been suspended. Only code is available to look at, demo is broken due to suspension of API facilities</h1>
+<h1>Demo is broken due to suspension of API facilities from the Freshdesk website, however, feel free to take a look at the code and replicate the application with your personal DB and REST APIs</h1>
 
 # Getting Started with Create React App
 
